@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="text-center">
+        <h2>Welcome to the Home Page</h2>
+        <a class="btn btn-success mt-3" href="{{ url_for('predict_datapoint') }}">Predict Student Score</a>
+    </div>
+{% endblock %}
